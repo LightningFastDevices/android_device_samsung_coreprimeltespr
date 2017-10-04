@@ -1,13 +1,13 @@
 #Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/gprimeltespr/gprimeltespr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/coreprimeltespr/coreprimeltespr-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
+$(call inherit-product, device/samsung/coreprimelte-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/gprimeltespr
+LOCAL_PATH := device/samsung/coreprimeltespr
 
 # Common overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/gprimeltespr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/coreprimeltespr/overlay
 
 # NFC configs
 PRODUCT_COPY_FILES += \

@@ -19,8 +19,8 @@
 set -e
 
 # Required!
-export DEVICE=gprimeltespr
-export DEVICE_COMMON=gprimelte-common
+export DEVICE=coreprimeltespr
+export DEVICE_COMMON=coreprimelte-common
 export VENDOR=samsung
 
 export SETUP_DEVICE_DIR=1
