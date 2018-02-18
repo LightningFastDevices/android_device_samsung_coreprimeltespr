@@ -96,4 +96,4 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 
 # RIL
-lib/libsec-ril.so
+lib/libsec-ril.so|276ee0246d366f755af068fb8c6c4503
